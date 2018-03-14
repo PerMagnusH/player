@@ -35,8 +35,7 @@ body {
                     }
                     return result;
             }
-	var aElem = document.getElementById('linkElem');
-	aElem.href = "./audio/" + findGetParameter('track') + ".mp3";
+	
 	
 soundManager.setup({
   // required: path to directory containing SM2 SWF files
@@ -47,7 +46,11 @@ soundManager.setup({
 </head>
 
 <body>
- <p><a id="linkElem" href="./audio/1.mp3" class="sm2_button"></a></p>
+ <p><a href="./audio/1.mp3" id="linkElem" class="sm2_button"></a></p>
+ <script>
+	 var aElem = document.getElementById('linkElem');
+	aElem.href = "./audio/" + findGetParameter('track') + ".mp3";
+	</script>
 </div>
 
 </body>
