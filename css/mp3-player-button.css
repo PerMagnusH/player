@@ -61,13 +61,13 @@
 div.bg {
 display:block;
   background-size: cover; 
- width: 20em;
- height: 20em;
+ width: 8em;
+ height: 8em;
 }
 
 a.sm2_button {
- width: 20em;
- height: 20em;
+ width: 8em;
+ height: 8em;
  position:relative;
  display:inline-block; /* If you worry about old browser bugs, Firefox 2 might not like this and may need -moz-inline-box instead. :D */
  background-size: cover; 
