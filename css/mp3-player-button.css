@@ -67,6 +67,7 @@ a.sm2_button {
  display:inline-block; /* If you worry about old browser bugs, Firefox 2 might not like this and may need -moz-inline-box instead. :D */
  overflow:hidden; /* don't draw inner link text */
  vertical-align:middle;
+ background-size: 20em;
 
 }
 
