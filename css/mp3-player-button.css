@@ -69,7 +69,7 @@ a.sm2_button {
  max-height: 8em;
  position:relative;
  display:inline-block; /* If you worry about old browser bugs, Firefox 2 might not like this and may need -moz-inline-box instead. :D */
- background-size: 4em; 
+background-size: contain;
  overflow:hidden; /* don't draw inner link text */
  vertical-align:middle;
 
