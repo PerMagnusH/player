@@ -107,7 +107,7 @@ a.sm2_button.sm2_playing:hover {
 
 a.sm2_button.sm2_paused,
 a.sm2_button.sm2_paused:hover {
- background-image:url(../image/play.png);
+ background-image:url(../image/pause.png);
  /* where possible, use data: and skip the HTTP request. Fancy-pants. Would use short-hand background: for above, but IE 8 doesn't override background-image. */
 background-image: none, url(../image/pause.png);
  background-size: 9px 10px;
