@@ -60,8 +60,8 @@
 */
 div.bg {
 display:block;
- width: 8em;
- height: 8em;
+ max-width: 8em;
+ max-height: 8em;
 }
 
 a.sm2_button {
