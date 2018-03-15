@@ -62,8 +62,8 @@
 a.sm2_button {
  position:relative;
  display:inline-block; /* If you worry about old browser bugs, Firefox 2 might not like this and may need -moz-inline-box instead. :D */
- width:18px;
- height:18px;
+ width:128px;
+ height:128px;
  text-indent:-9999px; /* don't show link text */
  overflow:hidden; /* don't draw inner link text */
  vertical-align:middle;
@@ -83,7 +83,7 @@ a.sm2_button:focus {
 
 a.sm2_button,
 a.sm2_button.sm2_paused:hover {
- background-color:#3399cc;
+ 
  background-image:url(../image/play.png);
  /* where possible, use data: and skip the HTTP request. Fancy-pants. Would use short-hand background: for above, but IE 8 doesn't override background-image. */
 background-image: none, url(../image/play.png);
@@ -97,12 +97,12 @@ background-image: none, url(../image/play.png);
 a.sm2_button:hover,
 a.sm2_button.sm2_playing,
 a.sm2_button.sm2_playing:hover {
- background-color:#cc3333;
+ 
 }
 
 a.sm2_button.sm2_playing,
 a.sm2_button.sm2_playing:hover {
- transform:rotate(90deg);
+  background-image:url(../image/pause.png);
 }
 
 a.sm2_button.sm2_paused,
@@ -110,7 +110,6 @@ a.sm2_button.sm2_paused:hover {
  background-image:url(../image/pause.png);
  /* where possible, use data: and skip the HTTP request. Fancy-pants. Would use short-hand background: for above, but IE 8 doesn't override background-image. */
 background-image: none, url(../image/pause.png);
- background-size: 9px 10px;
  *background-image:url(../image/pause.png); /* IE 6+7 don't do DATA: URIs */
- background-color:#666;
+
 }
