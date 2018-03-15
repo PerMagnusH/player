@@ -60,6 +60,8 @@
 */
 div.bg {
 display:block;
+ width:20em;
+ height:20em;
 }
 
 a.sm2_button {
