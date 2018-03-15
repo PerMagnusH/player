@@ -126,7 +126,9 @@ function BasicMP3Player() {
     finish: function() {
       pl.removeClass(this._data.oLink, this._data.className);
       this._data.className = '';
-      self.playNoMore = true;
+      var aElem = document.getElementById('linkElem');
+      if (!aElem.href.endsWith("test.mp3"))
+        self.playNoMore = true;
       
     }
 
