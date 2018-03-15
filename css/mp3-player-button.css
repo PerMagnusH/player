@@ -58,6 +58,12 @@
  a.sm2_paused:hover {}
 
 */
+div.bg {
+display:block;
+  background-size: cover; 
+ width: 20em;
+ height: 20em;
+}
 
 a.sm2_button {
  width: 20em;
