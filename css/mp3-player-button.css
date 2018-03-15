@@ -60,13 +60,9 @@
 */
 div.bg {
 display:block;
- max-width: 8em;
- max-height: 8em;
 }
 
 a.sm2_button {
- max-width: 8em;
- max-height: 8em;
  position:relative;
  display:inline-block; /* If you worry about old browser bugs, Firefox 2 might not like this and may need -moz-inline-box instead. :D */
  overflow:hidden; /* don't draw inner link text */
